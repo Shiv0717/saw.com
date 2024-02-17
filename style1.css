@@ -1,0 +1,87 @@
+@media (max-width:750px){
+    #page1{
+        width: 100%;
+        background-color: #F1F1F1;
+        text-align: center;
+        gap: 60px;
+        
+    }
+    #header>img{
+        padding-left: 10px;
+        margin-top: 40px;
+    }
+    #header>img{
+        height: 55px;
+    }
+    #content>h1{
+        color: #FD6735;
+        font-size: 28px;
+    }
+    #content>h5{
+        font-size: 25px;
+        font-weight: 400;
+    }
+    #content>p{
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: center;
+        padding-right: 10px ;
+    }
+    #page2{
+        flex-direction: column;
+    }
+    #box1{
+        width: 100%;
+        height: auto;
+        padding-left: 10px ;
+        padding-right: 10px ;
+        padding-bottom: 5%;
+    }
+    #box2{
+        width: 100%;
+        height: auto;
+        padding-left: 10px ;
+        padding-right: 10px ;
+        margin-left: 0;
+    }
+    #offer{
+        width: 400px;
+    }
+    .circle{
+        width: 160px;
+    }
+    #logos{
+       gap: 30px;
+
+    }
+    .imges{
+        flex-direction: column;
+        gap: 6px;
+    }
+    .one{
+        display: flex;
+        gap: 30px;
+        padding-left: 10px ;
+     }
+     .two{
+        display: flex;
+        gap: 30px;
+        padding-left: 10px ;
+        padding-right: 10px ;
+     }
+     .three{
+        display: flex;
+        gap: 30px;
+        padding-left: 10px ;
+     }
+     .two>img{
+        height: 34px;
+     }
+     .three>img{
+        height:49px;
+     }
+     footer>h1{
+        padding-left: 10px;
+     }
+}
